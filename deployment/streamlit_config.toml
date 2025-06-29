@@ -1,2 +1,28 @@
-.streamlit/
-└── streamlit_config.toml
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#0D8ABC"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[app]
+title = "HealthAI"
+description = "An Intelligent Healthcare Assistant powered by Mistral and Hugging Face"
+showSidebarNavigation = true
+
+[client]
+toolbarMode = "minimal"
+
+[logger]
+level = "info"
+
+[environment]
+# These are set via Streamlit Cloud Secrets UI — not hardcoded here.
+# Example placeholders shown for reference.
+HUGGINGFACE_TOKEN = "your_huggingface_token_here"
