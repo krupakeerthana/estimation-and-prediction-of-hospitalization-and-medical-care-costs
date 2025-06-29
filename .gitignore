@@ -1,0 +1,23 @@
+# .gitignore
+
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore .env secrets
+.env
+
+# Ignore data & temporary files
+*.log
+*.csv
+data/
+*.sqlite3
+
+# Ignore OS/IDE/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit cache
+.streamlit/config.toml
