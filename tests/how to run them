@@ -1,0 +1,7 @@
+How to run tests:
+In your terminal, run:
+python -m unittest discover
+or run each test file directly:
+
+python test_model.py
+python test_utils.py
